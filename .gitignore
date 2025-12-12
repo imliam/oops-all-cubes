@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build output
+public/assets/
+public/index.html
+
+# Editor
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*

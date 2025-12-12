@@ -2,7 +2,7 @@ import { GameState, GameAction, GamePieceData } from '@/types';
 import { BaseGame } from '@/games/base/Game';
 
 /**
- * 3D Tetris - Hollow Cube Edition
+ * Tetris - Hollow Cube Edition
  *
  * The play area is a hollow cube (e.g., 6x6x12 - width x depth x height)
  * Pieces fall from above and can be moved/rotated in all 3D directions.
@@ -192,11 +192,11 @@ function getPieceCells(piece: FallingPiece3D): Vec3[] {
 }
 
 /**
- * 3D Tetris Game Implementation
+ * Tetris Game Implementation
  */
 export class Tetris3DGame extends BaseGame<Tetris3DGameState, Tetris3DAction> {
     readonly id = 'tetris';
-    readonly name = '3D Tetris';
+    readonly name = 'Tetris';
     readonly description = 'Tetris in a 3D hollow cube - fill complete layers!';
     readonly gridSize = 6; // For the base Game interface
     readonly playerCount = 1;

@@ -25,7 +25,7 @@ const games: GameOption[] = [
     },
     {
         id: 'tetris',
-        name: '3D Tetris',
+        name: 'Tetris',
         description: 'Tetris inside a hollow cube! Pieces fall from above - fill complete layers to clear them.',
         icon: '🧊',
         available: true,

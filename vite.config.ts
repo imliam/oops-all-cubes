@@ -12,6 +12,14 @@ export default defineConfig({
   build: {
     outDir: 'public',
     emptyOutDir: false,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          three: ['three', '@react-three/fiber', '@react-three/drei'],
+          vendor: ['react', 'react-dom', 'zustand', 'gsap'],
+        },
+      },
+    },
   },
   publicDir: false,
 })

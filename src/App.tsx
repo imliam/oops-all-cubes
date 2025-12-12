@@ -3,7 +3,7 @@ import { MainMenu } from '@/components';
 import { SnakeGameComponent } from '@/games/snake';
 import { MinesweeperGameComponent } from '@/games/minesweeper';
 import { TetrisGameComponent } from '@/games/tetris';
-import { NonogramGameComponent } from '@/games/nonogram';
+// import { NonogramGameComponent } from '@/games/nonogram';
 
 type GameScreen = 'menu' | 'snake' | 'minesweeper' | 'chess' | 'tetris' | 'nonogram' | 'wordle' | 'crossword';
 

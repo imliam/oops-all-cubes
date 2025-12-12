@@ -30,13 +30,13 @@ const games: GameOption[] = [
         icon: '🧊',
         available: true,
     },
-    {
-        id: 'nonogram',
-        name: 'Nonogram',
-        description: 'Solve picture puzzles on each cube face! Use number clues to reveal hidden patterns.',
-        icon: '🧩',
-        available: true,
-    },
+    // {
+    //     id: 'nonogram',
+    //     name: 'Nonogram',
+    //     description: 'Solve picture puzzles on each cube face! Use number clues to reveal hidden patterns.',
+    //     icon: '🧩',
+    //     available: true,
+    // },
     // {
     //     id: 'chess',
     //     name: 'Chess',
